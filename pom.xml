@@ -8,7 +8,7 @@
         <version>1.4.0.RELEASE</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
-    
+
     <groupId>me.ramswaroop.jbot</groupId>
     <artifactId>jbot-parent</artifactId>
     <version>3.0.3-SNAPSHOT</version>
@@ -59,6 +59,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- <start-class>example.jbot.JBotApplication</start-class>mainメソッドのあるクラスを明示的に指定 -->
         <java.version>1.8</java.version>
         <spring.boot.version>1.4.0.RELEASE</spring.boot.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
